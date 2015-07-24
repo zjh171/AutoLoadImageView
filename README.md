@@ -1,2 +1,2 @@
 # AutoLoadImageView
-a lightweight image downloader
+a lightweight image downloader,you can get a brief instruction here:
