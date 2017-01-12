@@ -1,12 +1,12 @@
 # AutoLoadImageView
-a lightweight image downloader,you can get a brief instruction here:
+
+a lightweight image downloader,you can get detail infomation here:
+
 http://www.kyson.cn/index.php/archives/4/
 
 ![image](https://github.com/zjh171/AutoLoadImageView/blob/master/imagedownload_uml.png)
 
-
 本框架相关的知乎上的回答引用：
-
 
 我先扫个盲，大概说一下图片下载的原理：
 大家知道，不一样的图片肯定有不一样的url，你可以这么理解：http://xxx.com/1.png （以下简称图片1）和 http://xxx.com/2.png（以下简称图片2） 肯定是两个不一样的图片。这个不难理解吧。然后继续，既然图片1和图片2 不一样，那么如果图片1已经下载到本地了，如何确保第二次不要再去下载图片1 呢，这里就涉及到缓存的概念了。我们要在本地将图片1缓存起来，然后第二次如果要下载图片1那就先去本地看看有没有图片1，如果有的话就直接从本地读取，没有的话再去下载。这个应该也不难理解了。
